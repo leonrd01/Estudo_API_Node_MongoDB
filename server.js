@@ -23,6 +23,23 @@ app.post('/usuarios', async (req, res) => {
 
 })
 
+app.put('/usuarios/:id', async (req, res) => {
+
+    await prisma.user.update({
+        where: {
+            id: req.params.id // pegando o id do usuario da url
+        },
+        data: {
+            email: req.body.email, 
+            nome: req.body.nome,
+            idade: req.body.idade
+        }
+    })
+
+    res.status(201).json(req.body)
+
+})
+
 
 app.get('/usuarios', async (req, res) => {
 

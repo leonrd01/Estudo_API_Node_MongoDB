@@ -3,5 +3,4 @@ prisma
 .env
 package-lock.json
 package.json
-
-
+.vscode
