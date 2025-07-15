@@ -68,14 +68,14 @@ app.listen(3000) // rodando o servidor na porta 3000
 
 /*
 
-    npm init -y  <-  inicializa o projeto com o package.json
-    npm i express  <- instala o express
-    no aquivo ‘package.json’ adicionar “"type": "module"  <-  para usar o import
-    npm install prisma –save-dev  <- instala o prisma como dev dependency
-    npx prisma init  <-  inicializa o prisma e cria o arquivo .env e o arquivo schema.prisma
-    npx prisma db push <- cria o banco de dados e as tabelas no banco de dados
-    npx prisma studio  <-  abrir prisma studio
-    node - -watch server.js  <-  iniciar servidor
+    1° passo: npm init -y  <-  inicializa o projeto com o package.json 
+    2° passo: npm i express  <- instala o express 
+    3° passo: no aquivo ‘package.json’ adicionar “"type": "module"  <-  para usar o import
+    4° passo: npm install prisma –save-dev  <- instala o prisma como dev dependency
+    5° passo: npx prisma init  <-  inicializa o prisma e cria o arquivo .env e o arquivo schema.prisma
+    6° passo: npx prisma db push <- cria o banco de dados e as tabelas no banco de dados
+    7° passo: npx prisma studio  <-  abrir prisma studio
+    8° passo: node - -watch server.js  <-  iniciar servidor
 
 
 */
